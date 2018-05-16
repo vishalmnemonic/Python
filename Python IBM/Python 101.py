@@ -42,5 +42,20 @@ A="I am the best"
 B=A.replace('I am', 'She is')
 
 A.find('am'):3
+A.index('am'):3
 A.find('z'):-1
+
+# Python will try to run the code line-by-line, and it will stop if it runs into an error.
+
+// for integer division
+
+A="Thriller is the sixth studio album"
+print("before upper:",A)
+B=A.upper()
+print("After upper:",B)
+
+A="1"
+B="2"
+A+B="12"
+
 
