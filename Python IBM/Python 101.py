@@ -58,4 +58,11 @@ A="1"
 B="2"
 A+B="12"
 
-
+Mod 2
+Tuples are ordered sequence
+Ratings=(10,9,8,7,6,5,4,3,2,1)
+string, integer, float, tuple
+Ratings[0]:10
+They can be added to create bigger tupple
+len(Ratings):10
+Tupples are Immutable, must create a new tupple
