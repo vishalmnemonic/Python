@@ -66,3 +66,28 @@ Ratings[0]:10
 They can be added to create bigger tupple
 len(Ratings):10
 Tupples are Immutable, must create a new tupple
+RatingsSorted=sorted(Ratings)
+Tuples can be nested
+NT[1][2]
+NT[4][2][1]
+
+Lists, data structure, [], mutable
+nesting
+Can concatenate
+Add 2 element L.extend([88,34])
+Add 1 element L.append([88, 34])
+del(L[0): Remove first element
+
+String to List: "A,B,C,D".split(",")
+Changing list will change its reference too, So do A=b[:]
+help(python object)
+
+Sets: type of collection, unordered, unique elements, {}, 
+List to a set by set():Type casting
+A.add("action"), A is a set
+A.remove("action")
+Action in A: False
+Union of 2 sets: &
+A.union(B)
+A.issubset(B)
+
