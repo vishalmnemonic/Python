@@ -91,3 +91,31 @@ Union of 2 sets: &
 A.union(B)
 A.issubset(B)
 
+Dictionaries: Contains keys(label) and values
+Keys are immutable and unique 
+Values can be immutable, mutable and duplicates
+{Key1:1, Key2:[2,3,3]}
+DICT["Key1"]:1
+DICT["Grad"]=1987
+del(DICT[Key1])
+Key1 in DICT:TRUE
+DICT.keys()
+DICT.values()
+
+Mod3
+Comparision operator
+a=7
+a==7
+not equal: !=
+if(age>18)
+print("You can enter")
+else: print("move on")
+
+elif: alternate expression is checked
+
+Logic Operators:
+not(True):False
+OR AND 
+
+
+
