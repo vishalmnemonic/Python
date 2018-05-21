@@ -117,5 +117,15 @@ Logic Operators:
 not(True):False
 OR AND 
 
+Range(1:5):1, 2, 3, 4
+
+for i in range(0,5)
+	square[i]="white"
+
+newsquares=[]
+i=0
+while(squares[i]=='orange'):
+newsquares.append(squares[i])
+i=i+1
 
 
