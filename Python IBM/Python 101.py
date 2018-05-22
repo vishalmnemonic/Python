@@ -145,4 +145,19 @@ print(i, s)
 
 Global and Local variables
 
+Data Types: int, float, string, list, dictionary, bool
+Each is an object
 
+x.reverse()
+
+class circle(object):
+def _init_(self, radius, color):
+self.radius=radius;
+self.color=color;
+
+RedCircle=circle(5, "red")
+
+def add_rad(self, r):
+self.radius=self.radius + r
+
+Redcircle.add_rad(2)
