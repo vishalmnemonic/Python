@@ -128,4 +128,21 @@ while(squares[i]=='orange'):
 newsquares.append(squares[i])
 i=i+1
 
+functions: Len, sum, sorted, sort()
+
+def add1(a):
+"""add 1"""
+b=a+1
+return b
+add(5):6
+
+def nowork():
+pass
+return none
+
+for index(i), variable(s) in enumerate(variable):
+print(i, s)
+
+Global and Local variables
+
 
