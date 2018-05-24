@@ -128,6 +128,9 @@ while(squares[i]=='orange'):
 newsquares.append(squares[i])
 i=i+1
 
+for year in dates:  
+    print(year)  
+
 functions: Len, sum, sorted, sort()
 
 def add1(a):
@@ -142,6 +145,23 @@ return none
 
 for index(i), variable(s) in enumerate(variable):
 print(i, s)
+
+squares=['red','yellow','green','purple','blue ']
+
+for i,square in enumerate(squares):
+    print(i,square)
+	
+dates = [1982,1980,1973,2000]
+
+i=0;
+year=0
+while(year!=1973):
+    year=dates[i]
+    i=i+1
+    print(year)
+    
+    
+print("it took ", i ,"repetitions to get out of loop")
 
 Global and Local variables
 
