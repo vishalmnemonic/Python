@@ -200,3 +200,15 @@ with open("dir/x.txt", "r") as file1:
 with open("dir/x.txt", "w") as file1:
 	file1.write("this is it")
 
+import pandas as pd
+df=pd.read_csv(csv_path)
+
+x=df[['Lenght']] #portion from another data frame
+df.ix[0,0] #to access that cell
+df.ix[1,'column name']
+df.ix[0:2,0:2]
+
+df["released"].unique()
+
+df1=df[df["released"]>=1980]
+df1. to_csv('new song.csv')
