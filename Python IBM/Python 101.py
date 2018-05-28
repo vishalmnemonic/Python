@@ -186,3 +186,17 @@ sort(): change the list, no new list is created
 
 -----------------
 
+file=open("dir/x.txt", "w")
+file.name or file.mode
+
+file.close()
+
+with open("dir/x.txt", "r") as file1:
+	filestuff=file1.read()
+	filestuff2= file1.readlines()
+	filestuff2= file1.readlines(5) #print first 5 characters
+	print(filestuff)
+
+with open("dir/x.txt", "w") as file1:
+	file1.write("this is it")
+
