@@ -200,6 +200,7 @@ with open("dir/x.txt", "r") as file1:
 with open("dir/x.txt", "w") as file1:
 	file1.write("this is it")
 
+Pandas: Numerical dictional
 import pandas as pd
 df=pd.read_csv(csv_path)
 
@@ -212,3 +213,16 @@ df["released"].unique()
 
 df1=df[df["released"]>=1980]
 df1. to_csv('new song.csv')
+
+------------------
+Numpy: Libraries for scientific computation
+Array: Fixed length and of single type
+
+import numpy as np
+a=np.array([0,1,2,3,4])
+type(a):numpy.ndarray
+a.dtype:dtype('int64')
+a.size:# of elements
+a.ndim: dimention
+a.shape:(5,):size of each dimention
+
