@@ -199,6 +199,27 @@ with open("dir/x.txt", "r") as file1:
 
 with open("dir/x.txt", "w") as file1:
 	file1.write("this is it")
+	
+Lines=["This is line A\n","This is line B\n","This is line C\n"]
+Lines
+
+with open('Example2.txt','w') as writefile:
+    for line in Lines:
+        print(line)
+        writefile.write(line)
+
+with open('Example2.txt','r') as testwritefile:
+    print(testwritefile.read())
+
+with open('Example2.txt','a') as testwritefile:
+    testwritefile.write("This is line D\n")
+with open('Example2.txt','r') as testwritefile:
+    print(testwritefile.read())
+
+with open('Example2.txt','r') as readfile:
+    with open('Example3.txt','w') as writefile:
+          for line in readfile:
+                writefile.write(line)
 
 Pandas: Numerical dictional
 import pandas as pd
