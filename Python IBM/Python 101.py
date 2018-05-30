@@ -226,3 +226,19 @@ a.size:# of elements
 a.ndim: dimention
 a.shape:(5,):size of each dimention
 
+c=np.array([20,1,2,3,4])
+c[0]=100
+d=c[0:2]
+
+add, sub and multi are carried out element wise
+mean_a=a.mean() avergae of all the elements in array
+max_a=a.max()
+np.pi ni.sin(x)
+np.linespace(-2, 2, num=5)
+
+x=np.linespace(0, 2*np.pi, 100)
+y=np.sin(x)
+import matplotlib.pyplot as plt
+%matplotlib inline
+plt.plot(x, y)
+
