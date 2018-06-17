@@ -15,3 +15,11 @@ float(10)
 
 name=input("Who are you")
 print('Welcome', name)
+
+Input, Process, Output
+
+Hours=input("Enter hours:")
+Rate=input("Enter Rate:")
+Pay=float(Hours)*float(Rate)
+print("Pay:", Pay)
+
