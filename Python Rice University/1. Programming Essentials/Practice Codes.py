@@ -17,4 +17,10 @@ x = 5
 print("X:", x)
 Choose variable names, so that they make sense
 
+def useless(input1, input2, input3)
+	return 3
+
+useless(1, 2, 3)
+print(useless(1,2,3))
+
 
